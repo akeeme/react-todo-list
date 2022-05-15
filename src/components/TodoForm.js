@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { RiContrastDropLine } from 'react-icons/ri';
+// import { RiContrastDropLine } from 'react-icons/ri';
 
 const TodoForm = (props) => {
      // props are passed from the parent component
-    const [ values, updateValues ] = useState({});
+    // const [ values, updateValues ] = useState({});
     const [ input, setInput ] = useState(props.edit ? props.edit.value : ''); // if edit is passed in, set the input to the value of the edit object
 
 
